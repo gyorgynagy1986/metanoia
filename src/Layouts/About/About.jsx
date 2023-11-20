@@ -7,7 +7,7 @@ import photoLeft from "../../../public/assets/left.svg";
 import photoRight from "../../../public/assets/right.svg";
 import photoUp from "../../../public/assets/up.svg";
 import photoDown from "../../../public/assets/down.svg"
-import kitti from "../../../public/assets/kitti.png";
+import kitti from "../../../public/assets/Kitti.png";
 
 const About = () => {
   return (
