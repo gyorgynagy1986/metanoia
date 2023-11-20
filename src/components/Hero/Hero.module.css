@@ -1,0 +1,20 @@
+.container {
+  padding-top: var(--sectionPadding);
+  padding-bottom: var(--sectionPadding);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1 {
+  text-align: center;
+  margin-bottom: .5rem;
+}
+
+.h2 {
+  font-size: var(--h1_2) !important;
+  text-align: center;
+  max-width: 450px;
+  line-height: 22.5px;
+}
