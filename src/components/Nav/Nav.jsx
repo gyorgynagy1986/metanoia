@@ -10,7 +10,7 @@ import photo from '../../../public/assets/top-color.svg'
 const Nav = () => {
   return (
     <nav>
-    <Image className={style.color_top} alt="top color design pattern" src={photo} />
+    <Image priority className={style.color_top} alt="top color design pattern" src={photo} />
       <div className={style.container}>
         <Logo />
         <ul className={style.ul}>
