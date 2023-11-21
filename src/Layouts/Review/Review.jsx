@@ -11,7 +11,7 @@ import photoDown from "../../../public/assets/slideBottom.svg"
 
 const ReviewSlider = () => {
   return (
-    <section>
+    <section id="review">
       <div className={style.container}>
         <h2 className={section.className}>{reviews[0].h2}</h2>
         <div className={style.sliderContainer}>

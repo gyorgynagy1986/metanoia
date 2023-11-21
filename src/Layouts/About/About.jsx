@@ -11,7 +11,7 @@ import kitti from "../../../public/assets/Kitti.png";
 
 const About = () => {
   return (
-    <section>
+    <section id="about">
       <div className={style.container}>
         <h2 className={section.className}>{about.h2}</h2>
         <div className={style.photoContainer}>

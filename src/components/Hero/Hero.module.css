@@ -1,10 +1,28 @@
 .container {
-  padding-top: var(--sectionPadding);
-  padding-bottom: var(--sectionPadding);
+  max-width: 1170px;
+  margin-inline: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: 1px solid #6F1240;
+  border-radius: 30px;
+  margin-bottom: var(--sectionPadding);
+  padding: 3rem;
+}
+
+.contentContainer{
+  min-height: 240px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+  align-items: center;
+  flex-direction: column;
+  background: url(/herobg.png);
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .h1 {
@@ -17,4 +35,17 @@
   text-align: center;
   max-width: 450px;
   line-height: 22.5px;
+}
+
+
+@media screen and (max-width:600px) {
+  .container {
+    padding: 5px;
+  }
+  
+  .h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
 }

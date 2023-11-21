@@ -31,7 +31,7 @@ const Gallery = () => {
 
 
   return (
-    <section>
+    <section id="gallery">
       <div className={style.container}>
         <h2 className={section.className}>{gallery.h2}</h2>
         <div className={style.sliderContainer}>

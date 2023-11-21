@@ -1,9 +1,9 @@
 export const navigation = [
-  { title: "Holisztikus masszázs terápiák", href: "/#", id: 1 },
-  { title: "Rólam", href: "/#", id: 2 },
-  { title: "Galéria", href: "/#", id: 3 },
-  { title: "Vélemények", href: "/#", id: 4 },
-  { title: "Kapcsolat", href: "/#", id: 5 },
+  { title: "Holisztikus masszázs terápiák", href: "/#services", id: 1 },
+  { title: "Rólam", href: "/#about", id: 2 },
+  { title: "Galéria", href: "/#gallery", id: 3 },
+  { title: "Vélemények", href: "/#review", id: 4 },
+  { title: "Kapcsolat", href: "/#contact", id: 5 },
 ];
 
 export const hero = {

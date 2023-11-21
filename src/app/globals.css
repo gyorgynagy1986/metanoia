@@ -23,6 +23,7 @@
     #fff2f2 100%
   );
 
+
   --colorTitles: #6f1240;
   --colorP: #6f1240b2;
   --colorBtn: #6f1240;
@@ -98,6 +99,8 @@ button {
   outline: none !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bgColor);
+
 }
 
 .overflow-hidden {
@@ -110,15 +113,14 @@ body {
   font-size: 62.5%;
   scroll-behavior: inherit;
   color: var(--colorTitles);
-  background-color: var(--bgColor);
   
 }
 
 body {
   margin-inline: auto;
   position: relative;
-  padding-left: 5vw;
-  padding-right: 5vw;
+  background-color: #fbecec;
+
 }
 
 li {
