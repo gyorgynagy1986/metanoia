@@ -30,7 +30,7 @@ const Sections = ({
       {/*PHOTO CONTAINER*/}
       
       <div className={style.photoContainer}>
-        <Image className={style.img} alt="section photo" src={photo} />
+        <Image priority={styleMody === "th" ? true : false} className={style.img} alt="section photo" src={photo} />
       </div>
 
       {/*TEXT CONTAINER*/}

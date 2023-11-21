@@ -1,19 +1,18 @@
 .container {
     margin-inline: auto;
     display: flex;
+    width: 100%;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    padding-bottom:14rem;
-    
+    flex-direction: column;    
+    padding-bottom: 14rem;
   }
 
   .sliderContainer {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 4rem;
-  
+    gap: 6rem;
 }
 
 .desktoDown,

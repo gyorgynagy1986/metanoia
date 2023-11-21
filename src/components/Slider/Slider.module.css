@@ -11,24 +11,17 @@
   position: relative;
 }
 
-.photo {
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
+
 
 .container {
-  border-radius: 999px;
   max-width: 890px;
+  border-radius: 999px;
   position: relative;
   z-index: 0;
   margin-inline: auto;
   position: relative;
+  border: 1px solid var(--colorP) ;
   padding-top: 1rem;
-  border: 1px solid var(--colorBtn);
 }
 
 @media screen and (max-width: 1171px) {
