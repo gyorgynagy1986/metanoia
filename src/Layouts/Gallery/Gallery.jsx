@@ -5,7 +5,7 @@ import React from "react";
 import style from "./Gallery.module.css";
 import { section } from "@/app/font";
 import { gallery } from "@/data/data";
-import Slider from "@/components/Slider/Slider"
+import Slider from "@/components/Slider/PhotoSlider"
 import Image from "next/image";
 import left from "../../../public/assets/galleryLeft.svg"
 import right from "../../../public/assets/galleryRight.svg"

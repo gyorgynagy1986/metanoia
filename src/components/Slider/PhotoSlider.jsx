@@ -100,42 +100,14 @@ const SliderR = ({ photoGalleryHandler }) => {
   return (
     <div className={style.container}>
       <Slider {...settings}>
-        <div
-          onDoubleClick={() => handleClick(photoGalleryCoverPhots[0].id)}
-          className={styles.photo}
-        >
-          <Image alt="gallery" src={photoGalleryCoverPhots[0].url} />{" "}
-        </div>
-        <div
-          onDoubleClick={() => handleClick(photoGalleryCoverPhots[1].id)}
-          className={styles.photo}
-        >
-          <Image alt="gallery" src={photoGalleryCoverPhots[1].url} />{" "}
-        </div>
-        <div
-          onDoubleClick={() => handleClick(photoGalleryCoverPhots[2].id)}
-          className={styles.photo}
-        >
-          <Image alt="gallery" src={photoGalleryCoverPhots[2].url} />{" "}
-        </div>
-        <div
-          onDoubleClick={() => handleClick(photoGalleryCoverPhots[3].id)}
-          className={styles.photo}
-        >
-          <Image alt="gallery" src={photoGalleryCoverPhots[3].url} />{" "}
-        </div>
-        <div
-          onDoubleClick={() => handleClick(photoGalleryCoverPhots[4].id)}
-          className={styles.photo}
-        >
-          <Image alt="gallery" src={photoGalleryCoverPhots[4].url} />{" "}
-        </div>
-        <div
-          onDoubleClick={() => handleClick(photoGalleryCoverPhots[4].id)}
-          className={styles.photo}
-        >
-          <Image alt="gallery" src={photoGalleryCoverPhots[4].url} />{" "}
-        </div>
+        {photoGalleryCoverPhots.map((item, index) => (
+          <div key={index}
+            onClick={() => handleClick(item.id)}
+            className={styles.photo}
+          >
+            <Image alt="gallery" src={item.url} />{" "}
+          </div>
+        ))}
       </Slider>
     </div>
   );

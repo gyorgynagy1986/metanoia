@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import style from "@/components/Slider/Review.module.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { reviews } from "@/data/data";
 
 const SliderR = () => {
   const settings = {
@@ -18,37 +19,12 @@ const SliderR = () => {
   return (
     <div className={style.container}>
       <Slider {...settings}>
-        <div className={style.reviewContainer}>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nunc non est
-            enim. Sed et justo nisi. Aliquam ultrices urna iaculis, sollicitudin
-            risus quis, fermentum orci. Duis interdum sapien quam, quis
-            efficitur turpis pretium in.Etiam elementum sollicitudin lectus, id
-            laoreet dui tempor a.
-          </p>
-          <span>name</span>
-        </div>
-        
-        <div className={style.reviewContainer}>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nunc non est
-            enim. Sed et justo nisi. Aliquam ultrices urna iaculis, sollicitudin
-            risus quis, fermentum orci. Duis interdum sapien quam, quis
-            efficitur turpis pretium in.Etiam elementum sollicitudin lectus, id
-            laoreet dui tempor a.
-          </p>
-          <span>name</span>
-        </div>
-        <div className={style.reviewContainer}>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nunc non est
-            enim. Sed et justo nisi. Aliquam ultrices urna iaculis, sollicitudin
-            risus quis, fermentum orci. Duis interdum sapien quam, quis
-            efficitur turpis pretium in.Etiam elementum sollicitudin lectus, id
-            laoreet dui tempor a.
-          </p>
-          <span>name</span>
-        </div>
+        {reviews.map((item, index) => (
+          <div key={index} className={style.reviewContainer}>
+            <p>{item.text}</p>
+            <span>{item.name}</span>
+          </div>
+        ))}
       </Slider>
     </div>
   );

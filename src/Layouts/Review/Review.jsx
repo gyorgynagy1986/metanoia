@@ -13,7 +13,7 @@ const ReviewSlider = () => {
   return (
     <section id="review">
       <div className={style.container}>
-        <h2 className={section.className}>{reviews[0].h2}</h2>
+        <h2 className={section.className}>Vélemények</h2>
         <div className={style.sliderContainer}>
             <Image className={style.desktopF} alt="left" src={left}/>
             <Image className={style.desktoUp} alt="flower" src={photoUp} />
