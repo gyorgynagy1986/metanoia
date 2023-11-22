@@ -23,7 +23,6 @@
     #fff2f2 100%
   );
 
-
   --colorTitles: #6f1240;
   --colorP: #6f1240b2;
   --colorBtn: #6f1240;
@@ -37,7 +36,7 @@
     --h1: 25px;
     --h2: 21px;
     --h1_2: 15px;
-    --sectionTitle:28px;
+    --sectionTitle: 28px;
   }
 }
 
@@ -100,7 +99,6 @@ button {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--bgColor);
-
 }
 
 .overflow-hidden {
@@ -113,14 +111,13 @@ body {
   font-size: 62.5%;
   scroll-behavior: inherit;
   color: var(--colorTitles);
-  
+  scroll-behavior: smooth;
 }
 
 body {
   margin-inline: auto;
   position: relative;
   background-color: #fdf4f4e6;
-
 }
 
 li {
@@ -138,7 +135,8 @@ a {
   font-size: var(--fsNav);
 }
 
-.slick-prev, .slick-next {
+.slick-prev,
+.slick-next {
   display: none !important;
 }
 
@@ -146,7 +144,7 @@ a {
   border-radius: 100%;
   width: 19px;
   height: 19px;
-  background-color: #F3CBDD;
+  background-color: #f3cbdd;
 }
 
 .slick-dots li button:before {
@@ -166,5 +164,4 @@ a {
   .slick-dots {
     bottom: -120px !important;
   }
-
 }

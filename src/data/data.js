@@ -105,3 +105,12 @@ export const reviews = [
     name: "Kovács Ildikó",
   },
 ];
+
+
+export const formDatas = {
+  text: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non est enim. Sed et justo nisi. Aliquam ultrices urna iaculis, sollicitudin risus quis, fermentum orci.",
+  phone: " +36 30 492 1066",
+  email: "hello@metanoiaterapia.hu",
+  text2: "Ha nem venném fel, ne haragujd, valószínűleg terápiát tartok. Visszahívlak!",
+  text3: "Írj e-mailt, és amint tudok, válaszolok!"
+}
