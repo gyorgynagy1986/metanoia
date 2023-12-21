@@ -11,6 +11,7 @@ import Contact from "@/Layouts/Contact/Contact";
 import style from "./page.module.css";
 import NoiKor from "@/Layouts/NoiKor";
 import Mehtisztito from "@/Layouts/Mehtisztito";
+import Mreg from '../Layouts/Mehregeneralo'
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
         <Devider />
         <Noi />
         <Devider />
+        <Mreg />
         <Devider />
         <NoiKor />
         <Devider />
