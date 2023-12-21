@@ -12,74 +12,105 @@ export const hero = {
 };
 
 export const section_1 = {
-  h2: "Teljes testes aromaterápiás masszás",
+  h2: "Reflexológiai talpmasszázs állapotfelméréssel",
   h3: "A terápiáról",
-  text: "A kezelést megerősítő kártyahúzással kezdjük, illóolajokkal, beszélgetéssel hangolódunk, hogy minél mélyebben megértsük a folyamataidat és a lehető leghatékonyabb módon tudjalak támogatni. <br><br> Majd egy mély relaxációs általad választott masszázs következik Boldog Asszony illóolaj esszenciával, amely a benne lévő mirha, rózsa, muskotályzsálya illóolajoknak köszönhetően támogatják a női energiáidat. Sárgabarackmag olajban keverve felszínre hozza a benned lévő teremtő erőt. A nárd olaj pedig segít összekapcsolódni spiritualitásoddal. <br><br> Harmonizálódik általa a test és lélek A kezelést a szakrális csakrádra helyezett hangtál megzengetése fogja zárni, mely segít belső harmóniád megteremtésében, lehetővé teszi, hogy mélyebb kapcsolatot teremts belső vágyaiddal és inspirációddal.",
+  text: "A reflexológia talpmasszázs egy ősi gyógyító technika, melynek alapja abból áll, hogy talpunk egy mikrorendszer melyen szervezetünk egésze leképződik, így a rajta található reflex pontok stimulálásával célzott hatást tudunk gyakorolni a test különböző részeire és szerveire, ezzel ösztönözve az öngyógyító folyamatokat.  A kezelést választhatod tibeti hangtál harmonizációval egybekötve is!",
   h3_2: "Mikor ajánlom",
   list: [
-    { title: "Nőgyógyászati problémákra" },
-    { title: "Stressz csökkentésére" },
-    { title: "Regulációs folyamatok beindítására" },
+    { title: "Termékenységi problémák" },
+    { title: "Fájdalomcsillapítás" },
+    { title: "Krónikus fejfájás " },
+    { title: "Nőgyógyászati problémák" },
+    { title: "Immunrendszer, hormonrendszer harmonizálása esetén" },
+
   ],
   h3_3: "Árak",
   time: "60 PERC",
-  time_2: "90 PERC",
-  price: "12.000 ft",
-  price_2: "15.000 ft",
+  time_2: "1. alkalom",
+  price: "10.000 Ft",
+  price_2: "13.000 Ft",
 };
 
 export const section_2 = {
-  h2: "Csakraharmónizáló reflexpontos talpmasszázs",
+  h2: "Csakraharmónizáló talpmasszázs ",
   h3: "A terápiáról",
-  text: "A kezelést megerősítő kártyahúzással kezdjük, illóolajokkal, beszélgetéssel hangolódunk, hogy minél mélyebben megértsük a folyamataidat és a lehető leghatékonyabb módon tudjalak támogatni. <br><br> Majd egy mély relaxációs általad választott masszázs következik Boldog Asszony illóolaj esszenciával, amely a benne lévő mirha, rózsa, muskotályzsálya illóolajoknak köszönhetően támogatják a női energiáidat. Sárgabarackmag olajban keverve felszínre hozza a benned lévő teremtő erőt. A nárd olaj pedig segít összekapcsolódni spiritualitásoddal. <br><br> Harmonizálódik általa a test és lélek A kezelést a szakrális csakrádra helyezett hangtál megzengetése fogja zárni, mely segít belső harmóniád megteremtésében, lehetővé teszi, hogy mélyebb kapcsolatot teremts belső vágyaiddal és inspirációddal.",
+  text: "Segít a pozitív pszichés hatások megteremtésében. Masszázs során alkalmazott fogások fizikai és lelki diszharmónia megszüntetésével harmonizálják a test, szellem, lélek hármas egységét, ezáltal biztosítva a belső nyugalom elérését, az energiák kiegyenlítését.A kezelést választhatod tibeti hangtál harmonizációval egybekötve is!",
 
   h3_2: "Mikor ajánlom",
   list: [
-    { title: "Nőgyógyászati problémákra" },
-    { title: "Stressz csökkentésére" },
-    { title: "Regulációs folyamatok beindítására" },
+    { title: "Idegrendszer harmonizálás" },
+    { title: "Fájdalomcsillapítás" },
+    { title: "Stresszhatások megszüntetése" },
+    { title: "A szervezet összerendezett működésének harmonizálása esetén" },
+
   ],
   h3_3: "Árak",
   time: "60 perc",
   time_2: "90 perc",
-  price: "12.000 ft",
-  price_2: "15.000 ft",
+  price: "10.000 Ft",
+  price_2: "12.000 Ft",
 };
 
 export const section_3 = {
-  h2: "Reflexológiai talpmasszázs, állapotfelméréssel",
+  h2: "Aromaterápiás Masszázs Rituálé",
   h3: "A terápiáról",
-  text: "A kezelést megerősítő kártyahúzással kezdjük, illóolajokkal, beszélgetéssel hangolódunk, hogy minél mélyebben megértsük a folyamataidat és a lehető leghatékonyabb módon tudjalak támogatni. <br><br> Majd egy mély relaxációs általad választott masszázs következik Boldog Asszony illóolaj esszenciával, amely a benne lévő mirha, rózsa, muskotályzsálya illóolajoknak köszönhetően támogatják a női energiáidat. Sárgabarackmag olajban keverve felszínre hozza a benned lévő teremtő erőt. A nárd olaj pedig segít összekapcsolódni spiritualitásoddal. <br><br> Harmonizálódik általa a test és lélek A kezelést a szakrális csakrádra helyezett hangtál megzengetése fogja zárni, mely segít belső harmóniád megteremtésében, lehetővé teszi, hogy mélyebb kapcsolatot teremts belső vágyaiddal és inspirációddal.",
+  text: "Egy mélyrelaxációs masszázs 100% tisztaságú növényi olajokkal és illóolajokkal személyre szabottan összeállítva, melyek leginkább támogatnak téged folyamataidban. <br><br> A kezelést megerősítő kártya húzással és illóolaj belégzéssel indítjuk, hogy elengedd az aznapi feszültséget, és segítsen megérkezni, ráhangolódni a kezelés további részére. Ezután összeállítjuk az olaj keveréked, mely által harmonizálódni fog a test-lélek kapcsolata. <br><br> Masszázs során kiemelt  figyelmet fordítok azokra a speciális energiapontokra, amelyek serkentik az életerőt és segítik az energiák szabad áramlását a testedben. A kezelés zárásaként szakrális csakra hangtál rezgései fognak vissza ringatni fizikai síkodra. A kezelést választhatod tibeti hangtál harmonizációval egybekötve is",
 
   h3_2: "Mikor ajánlom",
   list: [
-    { title: "Nőgyógyászati problémákra" },
-    { title: "Stressz csökkentésére" },
-    { title: "Regulációs folyamatok beindítására" },
+    { title: "Idegrendszeri kimerültség" },
+    { title: "Izomfájdalom esetén" },
+    { title: "Ha úgy érzed meg vagy rekedve a folyamataidban és szeretnéd a benned lévő energiákat felszabadítani" },
+    { title: "Ha szeretnéd csökkenteni a testedben lévő stresszt és keresed a mély relaxációt és az egész testre kiterjedő energetikai kiegyensúlyozottságot" },
+
   ],
   h3_3: "Árak",
   time: "60 perc",
   time_2: "90 perc",
-  price: "12.000 ft",
-  price_2: "15.000 ft",
+  price: "12.000 Ft",
+  price_2: "15.000 Ft",
 };
 
 export const section_4 = {
-  h2: "Női jóga",
+  h2: "Metanoia luxus Rituálé ",
   h3: "A terápiáról",
-  text: "A kezelést megerősítő kártyahúzással kezdjük, illóolajokkal, beszélgetéssel hangolódunk, hogy minél mélyebben megértsük a folyamataidat és a lehető leghatékonyabb módon tudjalak támogatni. <br> Majd egy mély relaxációs általad választott masszázs következik Boldog Asszony illóolaj esszenciával, amely a benne lévő mirha, rózsa, muskotályzsálya illóolajoknak köszönhetően támogatják a női energiáidat. Sárgabarackmag olajban keverve felszínre hozza a benned lévő teremtő erőt. A nárd olaj pedig segít összekapcsolódni spiritualitásoddal. Harmonizálódik általa a test és lélek <br> A kezelést a szakrális csakrádra helyezett hangtál megzengetése fogja zárni, mely segít belső harmóniád megteremtésében, lehetővé teszi, hogy mélyebb kapcsolatot teremts belső vágyaiddal és inspirációddal.",
-  text: "A kezelést megerősítő kártyahúzással kezdjük, illóolajokkal, beszélgetéssel hangolódunk, hogy minél mélyebben megértsük a folyamataidat és a lehető leghatékonyabb módon tudjalak támogatni. <br> Majd egy mély relaxációs általad választott masszázs következik Boldog Asszony illóolaj esszenciával, amely a benne lévő mirha, rózsa, muskotályzsálya illóolajoknak köszönhetően támogatják a női energiáidat. Sárgabarackmag olajban keverve felszínre hozza a benned lévő teremtő erőt. A nárd olaj pedig segít összekapcsolódni spiritualitásoddal. Harmonizálódik általa a test és lélek <br> A kezelést a szakrális csakrádra helyezett hangtál megzengetése fogja zárni, mely segít belső harmóniád megteremtésében, lehetővé teszi, hogy mélyebb kapcsolatot teremts belső vágyaiddal és inspirációddal.",
-  h3_2: "Mikor ajánlom",
-  list: [
-    { title: "Nőgyógyászati problémákra" },
-    { title: "Stressz csökkentésére" },
-    { title: "Regulációs folyamatok beindítására" },
-  ],
+  text: "Ez a különleges kezelés 2,5 órán át tartó magával ragadó utazást kínál az elméd és tested mélyébe,aromaterapeuta által egyedileg összeállított prémium olajkeverékkel és hangtál harmonizáció segítségével. <br><br>A rituálét önismereti kártyavetéssel kezdjük egy nyugtató lábfürdővel egybekötve. Majd egy ringató közel 120 perces mélyrelaxációs masszázs veszi kezdetét, arc és dekoltázs masszázzsal egybekötve, akupresszúrás pontokat stimulálva. Végül tibeti  hangtál harmonizációval zárjuk az alkalmat.<br><br> Ez a kezelés egy igazi ünnep testnek és léleknek. Szívből ajánlom menyasszonyoknak, újdonsült édesanyáknak, és azoknak akik szeretnének közel kerülni szakrális női minőségükhöz.",
   h3_3: "Árak",
-  time: "60 perc",
-  time_2: "90 perc",
-  price: "12.000 ft",
-  price_2: "15.000 ft",
+  time: "150 perc",
+  price: "136.000 Ft",
+};
+
+export const section_5 = {
+  h2: "Méh regeneráló Rituálé",
+  h3: "A terápiáról",
+  text: "Méhünk tere tárolja a korábbi kapcsolati tapasztalásaink lenyomatait, sebeit, illetve egészségügyi állapota tükrözi a belső érzelmi világunkat is. Az egyéni rituálé során segítjük a méh energetikai tisztulását, hogy vele együtt áramoljunk és gyógyítsuk a benne ragadt fájdalmakat.",
+  h3_3: "Árak",
+  time: "90 perc",
+  price: "20.000 Ft",
+};
+
+export const section_6 = {
+  h2: "Metanoia-Szakrális Női kör ",
+  h3: "A terápiáról",
+  text: "Szakrális gyakorlatok, meditáció, hangfürdő és a női jóga, a gyógynövényekkel együttesen szövődnek össze ezeken az alkalmakon a szent nőiesség ünnepélyes tereként. Ez a kör nem csupán egy találkozóhely, hanem egy mély, belső utazás, hogy gyógyítsuk sebzett részeinket, hogy újra képesek legyünk saját női erőnkbe állni.",
+  h3_3: "Hozzájárulási díj",
+  time: "90 perc",
+  price: "5000 Ft",
+};
+
+export const section_7 = {
+  h2: "Méhtisztító szertartás",
+  h3: "A szertartásról",
+  text: "Szeretnélek invitálni egy délutánra, ahol Méhünk tere lesz a középpontban. A női méhünk analógiában van Földünkkel. A fák jelképezik légzőrendszerünket, a gombahálózat idegrendszerünket, a termőföld, az életet adó, a tápláló föld pedig méhünket. Mai világunkban termőföldjeink szennyezettek, terméketlenek, betegek, ahogy egyre több női méh küzd meddőséggel, cisztákkal, miómákkal, különféle betegséggel. <br><br> Ezen a délutánon különböző technikákat fogunk alkalmazni méhünk terének tisztítására, a benne lévő érzelmi blokkok oldására. Ismerkedni fogunk gyógynövényekkel, illóolajokkal, melyek támogatják a méh egészséges létét, öngyógyító folyamatainak serkentését.",
+  h3_3: "A Délután menete:",
+  h3_2: "Mikor ajánlom Neked ezt a szertartás napot?",
+  list: [
+    { title: "Ha szeretnél mélyebben kapcsolódni nőiségedhez" },
+    { title: "Ciszták, miómák, pcos, endometriózis, terméketlenség, vetélés esetén" },
+    { title: "Ha el akarsz engedi egy már rég hordozott érzelmi fájdalmat" },
+  ],
+  price: "Megérkezés, nyitó kör",
+  price_3: "Női jóga központban a méh területe",
 };
 
 export const about = {

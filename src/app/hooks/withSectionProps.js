@@ -15,6 +15,8 @@ const withSectionProps = (WrappedComponent, sectionData, photo, styleMody) => {
       time_2: sectionData.time_2,
       price: sectionData.price,
       price_2: sectionData.price_2,
+      price_3: sectionData.price_3,
+
       ...props
     };
 

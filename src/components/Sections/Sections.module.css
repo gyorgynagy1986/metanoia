@@ -12,6 +12,11 @@
   flex-direction: row-reverse;
 }
 
+.containerNkor {
+  flex-direction: row-reverse;
+
+}
+
 .containerNoi {
   flex-direction: row-reverse;
 }
@@ -27,6 +32,20 @@
 .containerRef > :nth-child(1) img {
   max-width: 220px;
 }
+
+.containerMh > :nth-child(1) img {
+  max-width: 139px;
+}
+
+.containerNkor > :nth-child(1) img {
+  max-width: 250px;
+}
+
+.containermhTisztito > :nth-child(1) img {
+  max-width: 180px;
+}
+
+
 
 .photoContainer {
   display: flex;
@@ -48,6 +67,7 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  margin-top: 3rem;
   margin-bottom: 1.5rem;
 }
 
@@ -55,18 +75,24 @@
   max-height: 30px;
 }
 
-.h2 {
-  margin-bottom: 3rem;
-}
 
 .p {
   margin-bottom: 4rem;
 }
 
+.MianPriceContainer {
+  width: 100%;
+}
+
 .textContainerBottom {
   display: flex;
+  align-items: start;
   gap: 4rem;
-  align-items: center;
+}
+
+
+.listcontainer  {
+ width: 100%;
 }
 
 .listcontainer ul {
@@ -80,14 +106,26 @@
   background-color: none !important;
   font-size: 15px;
   color: var(--colorP);
-  list-style: inside;
   padding: 0;
+  margin-left: 1.8rem;
   line-height: 22.5px;
+  position: relative;
+}
+
+.li::before {
+  content: '';
+  width: 5px;
+  height: 5px;
+  background-color:  var(--colorP);;
+  border-radius: 100%;
+  position: absolute;
+  left: -15px;
+  top: 8px;
 }
 
 .priceContainer {
   display: flex;
-  gap: 4rem;
+  gap: 3rem;
   padding-left: 1rem;
 }
 
@@ -104,7 +142,7 @@
   padding-left: 0.5rem;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1048px) {
   .container {
     flex-direction: column;
   }
@@ -136,5 +174,9 @@
 
   .containerRef > :nth-child(1) img {
     max-width: 200px;
+  }
+
+  .containerMh > :nth-child(1) img {
+    max-width: 180px;
   }
 }

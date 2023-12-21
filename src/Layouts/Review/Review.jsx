@@ -1,7 +1,6 @@
 import React from "react";
 import style from "./Review.module.css";
 import { section } from "@/app/font";
-import { reviews } from "@/data/data";
 import Review from "@/components/Slider/Review"
 import Image from "next/image";
 import right from "../../../public/assets/review_left.svg"

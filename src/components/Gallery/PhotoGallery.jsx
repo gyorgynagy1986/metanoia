@@ -22,6 +22,8 @@ const PhotoGallery = ({ galleryClose, clickedItem }) => {
   const [imageLoaded, setImageLoaded] = useState(false);
   const [touchStartX, setTouchStartX] = useState(null);
 
+  console.log(touchStartX)
+
   const photos = [
     {
       id: 1,

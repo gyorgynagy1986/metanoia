@@ -18,14 +18,17 @@ const Sections = ({
   time_2,
   price,
   price_2,
+  price_3,
 }) => {
   const createMarkup = (htmlContent) => {
     return { __html: htmlContent };
   };
 
   return (
+
     
-    <section className={`${style.container} ${styleMody === "ref" ? style.containerRef : ''}${styleMody === "noi" ?  style.containerNoi : ''} ${styleMody === "ch" ? style.containerCh : ''}`}>
+
+    <section className={`${style.container}  ${styleMody === "mhTisztito" ?  style.containermhTisztito : ''} ${styleMody === "noiKor" ?  style.containerNkor : ''} ${styleMody === "mh" ?  style.containerMh : ''}  ${styleMody === "ref" ? style.containerRef : ''} ${styleMody === "noi" ?  style.containerNoi : ''} ${styleMody === "ch" ? style.containerCh : ''}`}>
 
       {/*PHOTO CONTAINER*/}
       
@@ -40,7 +43,8 @@ const Sections = ({
         {/*MAIN TITLE // PARENT : TEXT CONTAINER */}  
         
         <h2 className={`${section.className} ${style.h2}`}>{h2}</h2>
-        
+        {styleMody === "noiKor" &&  <span style={{fontSize:'18px', display:'block', marginTop:'10px'}}>Minden hónap első péntekén</span>}
+
         {/*SECONDARY TITLE CONTAINER // PARENT : TEXT CONTAINER  */}  
         
         <div className={style.titleContainer}>
@@ -57,37 +61,41 @@ const Sections = ({
 
           {/*LIST CONTAINER // PARENT : TEXT CONTAINER BOTTOM */}  
 
-          <div className={style.listcontainer}>
+         {styleMody !== 'noi' && styleMody !== 'mh' && styleMody !== 'noiKor' ?  <div className={style.listcontainer}>
             <div className={style.titleContainer}>
               <Image alt="flower" src={flower} />{" "}
               <h3 className={style.h3}>{h3_2}</h3>{" "}
             </div>
             <ul>
-              {list.map((items, index) => (
+              {list?.map((items, index) => (
                 <li key={index} className={style.li}>
                   {items.title}
                 </li>
               ))}
             </ul>
-          </div>
-          <div>
+          </div> : ''}
+          <div className={style.MianPriceContainer}>
             <div className={style.titleContainer}>
               <Image alt="flower" src={flower} />{" "}
               <h3 className={style.h3}>{h3_3}</h3>{" "}
             </div>
             <div className={style.priceContainer}>
+             { styleMody === 'noi' || styleMody === 'mh' || styleMody === "noiKor" ? <Image alt="star" src={star} /> : ''}
               <div>
                 <p className={style.bottomTitle}>{time}</p>
                 <p className={style.bottomPrice}>{price}</p>
+                <p className={style.bottomPrice}>{price_3}</p>
               </div>
+              { styleMody === 'noi' || styleMody === 'mh' || styleMody === "noiKor" ? <Image alt="star" src={star} /> : ''}
               <div>
-                <Image alt="star" src={star} />
+               { styleMody !== 'noi' && styleMody !== 'mhTisztito' && styleMody !== 'mh' && styleMody !== "noiKor" ? <Image alt="star" src={star} /> : ''}
               </div>
               <div>
                 <p className={style.bottomTitle}>{time_2}</p>
                 <p className={style.bottomPrice}>{price_2}</p>
               </div>
             </div>
+             
           </div>
         </div>
       </div>
