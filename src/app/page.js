@@ -4,7 +4,6 @@ import Teraphy from "@/Layouts/Teraphy";
 import Csakra from "@/Layouts/Csakra";
 import Reflex from "@/Layouts/Reflex";
 import Noi from "@/Layouts/Noi";
-import Mehregeneralo from "@/Layouts/Mehregeneralo";
 import About from "@/Layouts/About/About";
 import Gallery from "@/Layouts/Gallery/Gallery";
 import Review from "@/Layouts/Review/Review";
