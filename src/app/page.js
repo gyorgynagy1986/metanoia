@@ -11,7 +11,7 @@ import Contact from "@/Layouts/Contact/Contact";
 import style from "./page.module.css";
 import NoiKor from "@/Layouts/NoiKor";
 import Mehtisztito from "@/Layouts/Mehtisztito";
-import Mreg from '../Layouts/Mehregeneralo'
+import Mreg from '../Layouts/Regen'
 
 export default function Home() {
   return (
