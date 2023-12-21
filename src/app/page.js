@@ -26,7 +26,6 @@ export default function Home() {
         <Devider />
         <Noi />
         <Devider />
-        <Mehregeneralo />
         <Devider />
         <NoiKor />
         <Devider />
