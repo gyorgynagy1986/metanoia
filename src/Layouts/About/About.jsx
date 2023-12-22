@@ -7,7 +7,7 @@ import photoLeft from "../../../public/assets/left.svg";
 import photoRight from "../../../public/assets/right.svg";
 import photoUp from "../../../public/assets/up.svg";
 import photoDown from "../../../public/assets/down.svg"
-import kitti from "../../../public/assets/Kitti.png";
+import kitti from "../../../public/assets/about/kitti.png"
 
 const About = () => {
   return (
@@ -21,7 +21,7 @@ const About = () => {
             <Image className={style.desktopF} alt="flower" src={photoLeft} />
           </div>
           <div className={style.circle}>
-            <Image alt="kitti" src={kitti}/>
+            <Image width={400} height={400} alt="kitti" src={kitti}/>
           </div>
           <div className={style.flower}>
             {" "}
