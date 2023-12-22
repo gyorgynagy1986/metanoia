@@ -6,7 +6,7 @@ import photo from "../../../public/assets/logo.svg";
 const Logo = () => {
   return (
     <div>
-      <Image className={style.logo} priority alt="logo" src={photo} />
+      <Image className={style.logo} priority quality={75} alt="logo" src={photo} />
     </div>
   );
 };

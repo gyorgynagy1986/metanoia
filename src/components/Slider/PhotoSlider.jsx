@@ -111,7 +111,7 @@ const SliderR = ({ photoGalleryHandler }) => {
             onClick={() => handleClick(item.id)}
             className={styles.photo}
           >
-            <Image alt="gallery" src={item.url} />{" "}
+            <Image priority alt="gallery" src={item.url} />{" "}
           </div>
         ))}
       </Slider>
