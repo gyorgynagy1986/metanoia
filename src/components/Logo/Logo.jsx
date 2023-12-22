@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./Logo.module.css";
 import Image from "next/image";
-import photo from "../../../public/assets/vector.png";
+import photo from "../../../public/assets/newlogo.png";
 
 const Logo = () => {
   return (
