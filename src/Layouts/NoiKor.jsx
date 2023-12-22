@@ -1,6 +1,6 @@
 import Sections from "@/components/Sections/Sections";
 import { section_6 as section } from "@/data/data";
-import sectionPhoto from "../../public/assets/vscc.svg";
+import sectionPhoto from "../../public/assets/2.svg";
 
 import withSectionProps from "@/app/hooks/withSectionProps";
 

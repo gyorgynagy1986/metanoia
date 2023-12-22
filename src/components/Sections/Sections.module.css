@@ -26,7 +26,7 @@
 }
 
 .containerCh > :nth-child(1) img {
-  max-width: 139px;
+  max-width: 160px;
 }
 
 .containerRef > :nth-child(1) img {
@@ -34,7 +34,7 @@
 }
 
 .containerMh > :nth-child(1) img {
-  max-width: 139px;
+  max-width: 300px;
 }
 
 .containerNkor > :nth-child(1) img {
@@ -42,7 +42,7 @@
 }
 
 .containermhTisztito > :nth-child(1) img {
-  max-width: 180px;
+  max-width: 300px;
 }
 
 
@@ -177,6 +177,16 @@
   }
 
   .containerMh > :nth-child(1) img {
+    max-width: 200px;
+  }
+
+
+  
+  .containerNkor > :nth-child(1) img {
     max-width: 180px;
+  }
+  
+  .containermhTisztito > :nth-child(1) img {
+    max-width: 200px;
   }
 }

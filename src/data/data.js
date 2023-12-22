@@ -115,7 +115,7 @@ export const section_7 = {
 
 export const about = {
   h2: "Rólam",
-  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non est enim. Sed et justo nisi. Aliquam ultrices urna iaculis, sollicitudin risus quis, fermentum orci. Duis interdum sapien quam, quis efficitur turpis pretium in. Etiam elementum sollicitudin lectus, id laoreet dui tempor a. Ut tristique mattis arcu, et egestas quam ultricies vitae.",
+  text: "Holisztikus masszázs terapeuta, női jógaoktató, természetgyógyász-reflexológus hallgató. ",
 };
 
 export const gallery = {
@@ -124,22 +124,22 @@ export const gallery = {
 
 export const reviews = [
   {
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non est enim. Sed et justo nisi. Aliquam ultrices urna iaculis, sollicitudin risus quis, fermentum orci. Duis interdum sapien quam, quis efficitur turpis pretium in. Etiam elementum sollicitudin lectus, id laoreet dui tempor a. Ut tristique mattis arcu, et egestas quam ultricies vitae.",
-    name: "Kovács Ildikó",
+    text: "Drága Kitti! Hetek óta nem aludtam ilyen jól és érzem, hogy visszaterápiáztál a középpontomba. Az elmúlt időszakhoz képest ez most olyan érzés, mintha testetlenül lebegnék. 😇 nagyon nagyon köszönöm!! 🙏🧚",
+    name: "",
   },
   {
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non est enim. Sed et justo nisi. Aliquam ultrices urna iaculis, sollicitudin risus quis, fermentum orci. Duis interdum sapien quam, quis efficitur turpis pretium in. Etiam elementum sollicitudin lectus, id laoreet dui tempor a. Ut tristique mattis arcu, et egestas quam ultricies vitae.",
-    name: "Kovács Ildikó",
+    text: "Képzeld a héten megjött a menstruációm, és nem görcsöltem egyáltalán. A héten nem is éreztem, hogy bármi bajom lett volna, nem fájt semmi. Nagyon hálás vagyok érte!! ",
+    name: "",
   },
   {
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non est enim. Sed et justo nisi. Aliquam ultrices urna iaculis, sollicitudin risus quis, fermentum orci. Duis interdum sapien quam, quis efficitur turpis pretium in. Etiam elementum sollicitudin lectus, id laoreet dui tempor a. Ut tristique mattis arcu, et egestas quam ultricies vitae.",
-    name: "Kovács Ildikó",
+    text: "Évek óta nem voltunk annyira nyugodtak es “jelenek” a párommal, mint a masszázsod utáni időszakban, köszönjük!",
+    name: "",
   },
 ];
 
 
 export const formDatas = {
-  text: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non est enim. Sed et justo nisi. Aliquam ultrices urna iaculis, sollicitudin risus quis, fermentum orci.",
+  text: " Köszönjük, hogy felkerested a Metanoia Terápiát! Szívesen válaszolok minden kérdésedre vagy megkeresésedre.",
   phone: " +36 30 492 1066",
   email: "hello@metanoiaterapia.hu",
   text2: "Ha nem venném fel, ne haragujd, valószínűleg terápiát tartok. Visszahívlak!",

@@ -6,14 +6,15 @@ import Image from "next/image";
 import left from "../../../public/assets/icons/left.svg";
 import right from "../../../public/assets/icons/right.svg";
 
-import photo from "../../../public/assets/gallery/photos/1.jpg";
-import photo1 from "../../../public/assets/gallery/photos/2.jpg";
-import photo2 from "../../../public/assets/gallery/photos/3.jpg";
-import photo3 from "../../../public/assets/gallery/photos/4.jpg";
-import photo4 from "../../../public/assets/gallery/photos/5.jpg";
-import photo5 from "../../../public/assets/gallery/photos/6.jpg";
-import photo6 from "../../../public/assets/gallery/photos/7.jpg";
-import photo7 from "../../../public/assets/gallery/photos/8.jpg";
+import photo from "../../../public/assets/gallery/photos/1.webp";
+import photo1 from "../../../public/assets/gallery/photos/2.webp";
+import photo2 from "../../../public/assets/gallery/photos/3.webp";
+import photo3 from "../../../public/assets/gallery/photos/4.webp";
+import photo4 from "../../../public/assets/gallery/photos/5.webp";
+import photo5 from "../../../public/assets/gallery/photos/6.webp";
+import photo6 from "../../../public/assets/gallery/photos/7.webp";
+import photo7 from "../../../public/assets/gallery/photos/8.webp";
+import photo8 from "../../../public/assets/gallery/photos/9.webp";
 
 import galleryCloseIcon from "../../../public/assets/icons/close.svg";
 
@@ -64,6 +65,11 @@ const PhotoGallery = ({ galleryClose, clickedItem }) => {
       id: 8,
       title: "Photo 8",
       imageUrl: photo7,
+    },
+    {
+      id: 9,
+      title: "Photo 9",
+      imageUrl: photo8,
     },
   ];
 

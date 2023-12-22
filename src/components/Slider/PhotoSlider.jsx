@@ -6,16 +6,17 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
 import styles from "./Slider.module.css";
-import Gallery from "@/components/Gallery/Gallery";
 
-import galleryItem from "../../../public/1.png";
-import galleryItem2 from "../../../public/2.png";
-import galleryItem3 from "../../../public/3.png";
-import galleryItem4 from "../../../public/4.png";
-import galleryItem5 from "../../../public/4.png";
-import galleryItem6 from "../../../public/4.png";
-import galleryItem7 from "../../../public/4.png";
-import galleryItem8 from "../../../public/4.png";
+import galleryItem from "../../../public/assets/gallery/covers/1.png";
+import galleryItem2 from "../../../public/assets/gallery/covers/2.png";
+import galleryItem3 from "../../../public/assets/gallery/covers/3.png";
+import galleryItem4 from "../../../public/assets/gallery/covers/4.png";
+import galleryItem5 from "../../../public/assets/gallery/covers/5.png";
+import galleryItem6 from "../../../public/assets/gallery/covers/6.png";
+import galleryItem7 from "../../../public/assets/gallery/covers/7.png";
+import galleryItem8 from "../../../public/assets/gallery/covers/8.png";
+import galleryItem9 from "../../../public/assets/gallery/covers/9.png";
+
 
 const photoGalleryCoverPhots = [
   {
@@ -57,6 +58,11 @@ const photoGalleryCoverPhots = [
     id: 8,
     alt: "cover photos",
     url: galleryItem8,
+  },
+  {
+    id: 9,
+    alt: "cover photos",
+    url: galleryItem9,
   },
 ];
 
