@@ -1,11 +1,11 @@
 import React from "react";
 import style from "./Logo.module.css";
 import Image from "next/image";
-import photo from "../../../public/assets/logo.svg";
+import photo from "../../../public/assets/1.svg";
 
 const Logo = () => {
   return (
-    <div style={{width:'100%', height:'100%'} }>
+    <div>
       <Image className={style.logo} priority quality={100} alt="logo" src={photo} />
     </div>
   );
