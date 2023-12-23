@@ -1,9 +1,10 @@
 import React from 'react';
 
-const withSectionProps = (WrappedComponent, sectionData, photo, styleMody) => {
+const withSectionProps = (WrappedComponent, sectionData, photo, styleMody, effectDirection) => {
   return (props) => {
     const sectionProps = {
       styleMody,
+      effectDirection,
       photo,
       h2: sectionData.h2,
       h3: sectionData.h3,

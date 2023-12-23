@@ -5,7 +5,8 @@ import sectionPhoto from "../../public/assets/1.svg";
 import withSectionProps from "@/app/hooks/withSectionProps";
 
 const styleMody = 'mh'
+const effectDirection = 'left'
 
-const Mehregeneralo = withSectionProps(Sections, section, sectionPhoto, styleMody);
+const Mehregeneralo = withSectionProps(Sections, section, sectionPhoto, styleMody, effectDirection);
 
 export default Mehregeneralo;

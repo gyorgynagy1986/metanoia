@@ -5,7 +5,7 @@ import sectionPhoto from "../../public/assets/vscc.svg";
 import withSectionProps from "@/app/hooks/withSectionProps";
 
 const styleMody = 'noi'
-
-const Noi = withSectionProps(Sections, section, sectionPhoto, styleMody);
+const effectDirection = 'right'
+const Noi = withSectionProps(Sections, section, sectionPhoto, styleMody, effectDirection);
 
 export default Noi;

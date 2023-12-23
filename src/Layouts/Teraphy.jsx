@@ -4,7 +4,8 @@ import sectionPhoto from '../../public/assets/Frame_2.svg';
 import withSectionProps from '@/app/hooks/withSectionProps';
 
 const styleMody = 'th'
+const effectDirection = 'left'
 
-const Teraphy = withSectionProps(Sections, section, sectionPhoto, styleMody);
+const Teraphy = withSectionProps(Sections, section, sectionPhoto, styleMody, effectDirection);
 
 export default Teraphy;

@@ -1,12 +1,15 @@
+"use client"
 import React from "react";
 import style from "./Sections.module.css";
 import { section } from "@/app/font";
 import Image from "next/image";
 import flower from "../../../public/assets/Isolation_Mode.svg";
 import star from "../../../public/assets/Isolation_Mode-1.svg";
+import useAos from "@/app/hooks/effect";
 
 const Sections = ({
   styleMody,
+  effectDirection,
   photo,
   h2,
   h3,
@@ -24,11 +27,14 @@ const Sections = ({
     return { __html: htmlContent };
   };
 
+  useAos({ duration: 1500 });
+
+
   return (
 
-    
 
-    <section className={`${style.container}  ${styleMody === "mhTisztito" ?  style.containermhTisztito : ''} ${styleMody === "noiKor" ?  style.containerNkor : ''} ${styleMody === "mh" ?  style.containerMh : ''}  ${styleMody === "ref" ? style.containerRef : ''} ${styleMody === "noi" ?  style.containerNoi : ''} ${styleMody === "ch" ? style.containerCh : ''}`}>
+
+    <section data-aos={`fade-${effectDirection}`} className={`${style.container}  ${styleMody === "mhTisztito" ?  style.containermhTisztito : ''} ${styleMody === "noiKor" ?  style.containerNkor : ''} ${styleMody === "mh" ?  style.containerMh : ''}  ${styleMody === "ref" ? style.containerRef : ''} ${styleMody === "noi" ?  style.containerNoi : ''} ${styleMody === "ch" ? style.containerCh : ''}`}>
 
       {/*PHOTO CONTAINER*/}
       

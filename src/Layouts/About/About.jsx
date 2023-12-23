@@ -1,3 +1,5 @@
+"use client"
+
 import React from "react";
 import style from "./About.module.css";
 import { section } from "@/app/font";
@@ -8,11 +10,14 @@ import photoRight from "../../../public/assets/right.svg";
 import photoUp from "../../../public/assets/up.svg";
 import photoDown from "../../../public/assets/down.svg"
 import kitti from "../../../public/assets/about/kitti.png"
+import useAos from "@/app/hooks/effect";
 
 const About = () => {
+  useAos({ duration: 1500 });
+
   return (
     <section id="about">
-      <div className={style.container}>
+      <div  data-aos="fade" className={style.container}>
         <h2 className={section.className}>{about.h2}</h2>
         <div className={style.photoContainer}>
           <div className={style.flower}>

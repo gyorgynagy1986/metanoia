@@ -5,7 +5,9 @@ import sectionPhoto from "../../public/assets/3.svg";
 import withSectionProps from "@/app/hooks/withSectionProps";
 
 const styleMody = 'mhTisztito'
+const effectDirection = 'left'
 
-const Mehtisztito = withSectionProps(Sections, section, sectionPhoto, styleMody);
+
+const Mehtisztito = withSectionProps(Sections, section, sectionPhoto, styleMody, effectDirection);
 
 export default Mehtisztito;
