@@ -11,7 +11,7 @@ const MobileMenuItem = ({ mobileClose }) => {
  
   return (
     <>
-    <Logo />
+    <Logo mobileLogoMaxWidth={'180px'} />
       {navigation.map((linkItem) => (
         <Link
           onClick={mobileClose}
