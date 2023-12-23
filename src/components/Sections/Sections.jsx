@@ -27,14 +27,14 @@ const Sections = ({
     return { __html: htmlContent };
   };
 
-  useAos({ duration: 1500 });
+  useAos({ duration: 1000 });
 
 
   return (
 
 
 
-    <section data-aos={`fade-${effectDirection}`} className={`${style.container}  ${styleMody === "mhTisztito" ?  style.containermhTisztito : ''} ${styleMody === "noiKor" ?  style.containerNkor : ''} ${styleMody === "mh" ?  style.containerMh : ''}  ${styleMody === "ref" ? style.containerRef : ''} ${styleMody === "noi" ?  style.containerNoi : ''} ${styleMody === "ch" ? style.containerCh : ''}`}>
+    <section data-aos={`fade`} className={`${style.container}  ${styleMody === "mhTisztito" ?  style.containermhTisztito : ''} ${styleMody === "noiKor" ?  style.containerNkor : ''} ${styleMody === "mh" ?  style.containerMh : ''}  ${styleMody === "ref" ? style.containerRef : ''} ${styleMody === "noi" ?  style.containerNoi : ''} ${styleMody === "ch" ? style.containerCh : ''}`}>
 
       {/*PHOTO CONTAINER*/}
       
