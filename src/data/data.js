@@ -128,7 +128,7 @@ export const about = {
 };
 
 export const gallery = {
-  h2: "Gallery",
+  h2: "Galéria",
 };
 
 export const reviews = [
