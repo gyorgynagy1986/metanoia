@@ -24,7 +24,7 @@ const Formhandler = () => {
     e.preventDefault();
     setButtonSpinner(false);
     try {
-      await fetch("https://formsubmit.co/ajax/gy.nagy86@gmail.com", {
+      await fetch("https://formsubmit.co/ajax/hello@metanoiaterapia.hu", {
         method: "post",
         headers: {
           "Content-Type": "application/json",
