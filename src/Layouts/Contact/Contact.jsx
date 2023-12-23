@@ -10,7 +10,7 @@ import useAos from "@/app/hooks/effect";
 const Contact = () => {
   useAos({ duration: 1500 });
   return (
-    <section data-aos="fade-up" id="contact" className={style.section}>
+    <section id="contact" className={style.section}>
       <Image className={style.design} alt="design" src={bottom} />
       <div className={style.container}>
         <div className={style.textContainer}>
