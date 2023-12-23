@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import React from "react";
 import style from "./Gallery.module.css";
 import { section } from "@/app/font";
@@ -12,10 +12,17 @@ import right from "../../../public/assets/galleryRight.svg"
 import PhotoGallery from '@/components/Gallery/PhotoGallery'
 import photoUp from "../../../public/assets/slideTop.svg";
 import photoDown from "../../../public/assets/slideBottom.svg"
-import useAos from "@/app/hooks/effect";
-const Gallery = () => {
-  useAos({ duration: 1500 });
+import Aos from "aos";
+import 'aos/dist/aos.css';
 
+
+const Gallery = () => {
+
+ useEffect(() => {
+  Aos.init({
+    duration: 1500,
+  });
+}, []);
 
   const [galleryOpen, setGalleryOpen ] = useState(false);
   const [selectedImageId, setSelectedImageId] = useState(null);
@@ -33,8 +40,8 @@ const Gallery = () => {
 
 
   return (
-    <section id="gallery">
-      <div data-aos="fade-up" className={style.container}>
+    <section  id="gallery">
+      <div className={style.container}>
         <h2 className={section.className}>{gallery.h2}</h2>
         <div className={style.sliderContainer}>
             <Image data-aos="fade-right" className={style.desktopF} alt="left" src={left}/>

@@ -27,7 +27,7 @@ const Sections = ({
     return { __html: htmlContent };
   };
 
-  useAos({ duration: 1000 });
+   useAos({ duration: 1200 });
 
 
   return (

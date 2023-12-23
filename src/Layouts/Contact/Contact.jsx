@@ -8,15 +8,15 @@ import FormDatas from "@/Layouts/Contact/FormDatas";
 import useAos from "@/app/hooks/effect";
 
 const Contact = () => {
-  useAos({ duration: 2000 });
+  useAos({ duration: 1500 });
   return (
-    <section id="contact" className={style.section}>
+    <section data-aos="fade-up" id="contact" className={style.section}>
       <Image className={style.design} alt="design" src={bottom} />
       <div className={style.container}>
-        <div data-aos="fade-right"  className={style.textContainer}>
+        <div className={style.textContainer}>
           <FormDatas />
         </div>
-        <div data-aos="fade-left" className={style.formContainer}>
+        <div  className={style.formContainer}>
           <Formhandler />
         </div>
       </div>

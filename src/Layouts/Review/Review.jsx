@@ -9,10 +9,8 @@ import right from "../../../public/assets/review_left.svg"
 import left from "../../../public/assets/review_right.svg"
 import photoUp from "../../../public/assets/slideTop.svg";
 import photoDown from "../../../public/assets/slideBottom.svg"
-import useAos from "@/app/hooks/effect";
 
 const ReviewSlider = () => {
-  useAos({ duration: 1500 });
 
   return (
     <section data-aos="fade-up" id="review">

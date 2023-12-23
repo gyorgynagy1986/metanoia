@@ -6,7 +6,7 @@ import { hero } from "@/data/data";
 import { section } from "@/app/font";
 import useAos from "@/app/hooks/effect";
 const Hero = () => {
-  useAos({ duration: 1500 });
+ // useAos({ duration: 1500 });
 
   return (
     <section className={style.container}>
