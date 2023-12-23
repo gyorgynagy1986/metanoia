@@ -11,12 +11,11 @@ const withSectionProps = (WrappedComponent, sectionData, photo, styleMody) => {
       h3_3: sectionData.h3_3,
       text: sectionData.text,
       list: sectionData.list,
+      list_2: sectionData.list_2,
       time: sectionData.time,
       time_2: sectionData.time_2,
       price: sectionData.price,
       price_2: sectionData.price_2,
-      price_3: sectionData.price_3,
-
       ...props
     };
 

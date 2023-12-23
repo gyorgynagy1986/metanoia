@@ -14,11 +14,11 @@ const Sections = ({
   h3_2,
   h3_3,
   list,
+  list_2,
   time,
   time_2,
   price,
   price_2,
-  price_3,
 }) => {
   const createMarkup = (htmlContent) => {
     return { __html: htmlContent };
@@ -81,11 +81,20 @@ const Sections = ({
             </div>
             <div className={style.priceContainer}>
              { styleMody === 'noi' || styleMody === 'mh' || styleMody === "noiKor" ? <Image alt="star" src={star} /> : ''}
-              <div>
+            
+            { styleMody !== 'mhTisztito' ?   <div>
                 <p className={style.bottomTitle}>{time}</p>
                 <p className={style.bottomPrice}>{price}</p>
-                <p className={style.bottomPrice}>{price_3}</p>
               </div>
+              : 
+              <ul>
+              {list_2?.map((items, index) => (
+                <li key={index} className={style.li}>
+                  {items.title}
+                </li>
+              ))}
+            </ul>
+              }
               { styleMody === 'noi' || styleMody === 'mh' || styleMody === "noiKor" ? <Image alt="star" src={star} /> : ''}
               <div>
                { styleMody !== 'noi' && styleMody !== 'mhTisztito' && styleMody !== 'mh' && styleMody !== "noiKor" ? <Image alt="star" src={star} /> : ''}

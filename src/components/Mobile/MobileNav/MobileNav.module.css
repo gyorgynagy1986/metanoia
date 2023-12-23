@@ -1,0 +1,35 @@
+.container {
+    height: 75px;
+    display: none;
+    overflow: hidden;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      padding-left: 5vw;
+      padding-right: 5vw;
+    }
+  
+    .navbar {
+      width: 100%;
+      position: fixed;
+      z-index: 1111;
+      background-color: rgba(248, 248, 248, 0.29);
+      backdrop-filter:  blur(10px);
+      -webkit-backdrop-filter: blur(10px)
+    }
+  }
+  
+  .logo {
+    width: 150px;
+  }
+  
+  .mobileOpen {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }

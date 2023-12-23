@@ -75,9 +75,8 @@
   max-height: 30px;
 }
 
-
 .p {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .MianPriceContainer {
@@ -89,7 +88,6 @@
   align-items: start;
   gap: 4rem;
 }
-
 
 .listcontainer  {
  width: 100%;
@@ -149,6 +147,10 @@
 
   .photoContainer {
     width: 100%;
+  }
+
+  .priceContainer {
+    gap: 0rem;
   }
 
   .textContainer {
