@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import Nav from "@/components/Nav/Nav";
 import Footer from "@/Layouts/Footer/Footer";
 import { main } from "./font";
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
         <div style={{height:'10rem'}}></div>
         <Nav />
         {children}
+        <Analytics />
         <Footer />
       </body>
     </html>
