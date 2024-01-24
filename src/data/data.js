@@ -27,7 +27,7 @@ export const section_1 = {
   h3_3: "Árak",
   time: "60 PERC",
   time_2: "1. alkalom",
-  price: "10.000 Ft",
+  price: "10.500 Ft",
   price_2: "13.000 Ft",
 };
 
@@ -47,7 +47,7 @@ export const section_2 = {
   h3_3: "Árak",
   time: "60 perc",
   time_2: "90 perc",
-  price: "10.000 Ft",
+  price: "10.500 Ft",
   price_2: "12.000 Ft",
 };
 
@@ -67,17 +67,17 @@ export const section_3 = {
   h3_3: "Árak",
   time: "60 perc",
   time_2: "90 perc",
-  price: "12.000 Ft",
-  price_2: "15.000 Ft",
+  price: "13.000 Ft",
+  price_2: "16.000 Ft",
 };
 
 export const section_4 = {
   h2: "Metanoia Luxus Rituálé ",
   h3: "A terápiáról",
-  text: "Ez a különleges kezelés 2,5 órán át tartó magával ragadó utazást kínál az elméd és tested mélyébe,aromaterapeuta által egyedileg összeállított prémium olajkeverékkel és hangtál harmonizáció segítségével. <br><br>A rituálét önismereti kártyavetéssel kezdjük egy nyugtató lábfürdővel egybekötve. Majd egy ringató közel 120 perces mélyrelaxációs masszázs veszi kezdetét, arc és dekoltázs masszázzsal egybekötve, akupresszúrás pontokat stimulálva. Végül tibeti  hangtál harmonizációval zárjuk az alkalmat.<br><br> Ez a kezelés egy igazi ünnep testnek és léleknek. Szívből ajánlom menyasszonyoknak, újdonsült édesanyáknak, és azoknak akik szeretnének közel kerülni szakrális női minőségükhöz.",
+  text: "Ez a különleges kezelés 2,5 órán át tartó magával ragadó utazást kínál az elméd és tested mélyébe, aromaterapeuta által egyedileg összeállított prémium szakrális olajkeverékkel, többek között   damaszkuszi rózsával, mirhával, szantálfával és a nárdusfűvel.",
   h3_3: "Árak",
   time: "150 perc",
-  price: "38.000 Ft",
+  price: "40.000 Ft",
 };
 
 export const section_5 = {
