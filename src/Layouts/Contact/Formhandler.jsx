@@ -5,7 +5,7 @@ import { section } from "@/app/font";
 
 const Formhandler = () => {
   const [buttonSpinner, setButtonSpinner] = useState(true);
-  const [buttonText, setButtonText] = useState("Üzenet külédése");
+  const [buttonText, setButtonText] = useState("Üzenet küldése");
   const [formData, setFormData] = useState({
     name: "",
     email: "",
